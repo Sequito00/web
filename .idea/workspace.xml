@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3d96104-87dd-41a7-9366-b91f1f5128ba" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lNCslEDL06BfXkjRP75CIQdgrf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\DIWFinal\img" />
+      <recent name="C:\xampp\htdocs\DIWFinal\vistas" />
+      <recent name="C:\xampp\htdocs\DIWFinal\multimedia" />
+      <recent name="C:\xampp\htdocs\DIWFinal\mp3" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\DIWFinal\img" />
+      <recent name="C:\xampp\htdocs\DIWFinal\vistas" />
+      <recent name="C:\xampp\htdocs\DIWFinal\estilos" />
+      <recent name="C:\xampp\htdocs\DIWFinal\funciones" />
+      <recent name="C:\xampp\htdocs\DIWFinal" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3d96104-87dd-41a7-9366-b91f1f5128ba" name="Default Changelist" comment="" />
+      <created>1607428370532</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607428370532</updated>
+      <workItem from="1607428371744" duration="3448000" />
+      <workItem from="1607508680758" duration="930000" />
+      <workItem from="1607598450046" duration="5043000" />
+      <workItem from="1607623435491" duration="1004000" />
+      <workItem from="1607680696478" duration="977000" />
+      <workItem from="1607932043136" duration="273000" />
+      <workItem from="1607935226592" duration="21000" />
+      <workItem from="1607939259846" duration="1808000" />
+      <workItem from="1607941279373" duration="201000" />
+      <workItem from="1607941761709" duration="6000" />
+      <workItem from="1607950258405" duration="161000" />
+      <workItem from="1608207121886" duration="3515000" />
+      <workItem from="1608210672074" duration="549000" />
+      <workItem from="1608211273734" duration="39000" />
+      <workItem from="1608211348359" duration="1547000" />
+      <workItem from="1608212979935" duration="1220000" />
+      <workItem from="1608243244405" duration="32000" />
+      <workItem from="1608900469160" duration="1042000" />
+      <workItem from="1609063885647" duration="4461000" />
+      <workItem from="1609101911078" duration="4000" />
+      <workItem from="1609152336509" duration="1634000" />
+      <workItem from="1609581250992" duration="2047000" />
+      <workItem from="1610105010165" duration="18000" />
+      <workItem from="1610105184197" duration="1887000" />
+      <workItem from="1610357854745" duration="9921000" />
+      <workItem from="1610380068170" duration="28000" />
+      <workItem from="1610704525187" duration="2505000" />
+      <workItem from="1610707825824" duration="478000" />
+      <workItem from="1610709887469" duration="1956000" />
+      <workItem from="1610712002473" duration="3053000" />
+      <workItem from="1610793911627" duration="2837000" />
+      <workItem from="1610797023924" duration="214000" />
+      <workItem from="1610797345692" duration="1537000" />
+      <workItem from="1610810062515" duration="785000" />
+      <workItem from="1610967771537" duration="600000" />
+      <workItem from="1610971206338" duration="17000" />
+      <workItem from="1610994101322" duration="33000" />
+      <workItem from="1611316599582" duration="250000" />
+      <workItem from="1611566786052" duration="1506000" />
+      <workItem from="1611584388779" duration="1567000" />
+      <workItem from="1611587524635" duration="180000" />
+      <workItem from="1611827834093" duration="195000" />
+      <workItem from="1611832793979" duration="610000" />
+      <workItem from="1611833676761" duration="10000" />
+      <workItem from="1611834541813" duration="204000" />
+      <workItem from="1612169071028" duration="78000" />
+      <workItem from="1612170504323" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610360347301">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1610360347301" />
+    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1612169148137">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1612169148137" />
+    <state x="604" y="356" key="NewPhpFileDialog" timestamp="1611316709014">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="604" y="356" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1611316709014" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1609066668335">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1609066668335" />
+  </component>
+</project>

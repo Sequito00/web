@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    display: inline-block;
+    min-height: 100vh;
+    background: #2e2e2e;
+}
+.contenedor{
+    position: relative;
+    float: left;
+    width: 500px;
+}
+h2{
+    margin: 0 20px;
+}
+.contenedor h2{
+    color: #fff;
+}
+.contenedor .datos{
+    position: relative;
+    display: flex;
+    margin: 20px 20px;
+    padding: 24px 10px 18px;
+    background: linear-gradient(#616161 0%, #333, #222);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px solid #000;
+    transition: 0.5s;
+}
+
+.contenedor .datos:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    z-index: 10;
+}
+
+.contenedor .datos .Name{
+    position: relative;
+    width: 110px;
+    text-align: right;
+    color: #fff;
+    margin-top: -2px;
+    text-transform: uppercase;
+}
+.contenedor .datos .valor{
+    position: relative;
+    width: 40px;
+    text-align: left;
+    color: #fff;
+    margin-top: -2px;
+    text-transform: uppercase;
+}
+.contenedor .datos .porcentaje{
+    position: relative;
+    width: calc(100% - 150px);
+    height: 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    background: #151515;
+    box-shadow: inset 0 0 10px #000;
+    overflow: hidden;
+}
+.contenedor .datos .porcentaje .progreso{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: inset 0 0 2px #000;
+    animation: animate 4s ease-in-out forwards;
+}
+
+@keyframes animate {
+    from{
+        width: 0;
+    }
+    
+}
+
+.contenedor .datos:nth-child(1) .porcentaje .progreso{
+    background: linear-gradient(45deg, #1fe6ff, #673AB7);
+}
+.contenedor .datos:nth-child(2) .porcentaje .progreso{
+    background: linear-gradient(45deg, #1fe6ff, #673AB7);
+}
+.contenedor .datos:nth-child(3) .porcentaje .progreso{
+    background: linear-gradient(45deg, #1fe6ff, #673AB7);
+}
+.contenedor .datos:nth-child(4) .porcentaje .progreso{
+    background: linear-gradient(45deg, #1fe6ff, #673AB7);
+}
+.contenedor .datos:nth-child(5) .porcentaje .progreso{
+    background: linear-gradient(45deg, #56ab2f, #dd1818);
+}
+
+.botones{
+     position: absolute;
+     top: 500px;
+     margin: 0 20px;
+     width: auto;
+     height: auto;
+ }
+
+.boton{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: linear-gradient(#616161 0%, #333, #222);
+    border: 2px solid #000;
+}
+
+td{
+    color: white;
+}

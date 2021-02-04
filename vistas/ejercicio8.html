@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba8</title>
+    <meta name="author" content="Alvaro Seco de Herrera">
+    <link rel=StyleSheet href="../estilos/index.css" TYPE="text/css">
+</head>
+
+<body>
+<h1 style="text-align: center"><b>Subasta Online</b></h1><hr>
+<a href="../index.html">Inicio</a> ||
+<a href="ejercicio7.html"><< Anterior</a> |
+<a href="pelicula.html">Siguiente >></a>
+<hr>
+
+<img src="../img/mazo.jpg">
+<h3>Información sobre el producto</h3>
+<form method="post" action="mailto:secoalvaro00@gmail.com" enctype="text/plain">
+
+    <fieldset>
+        <legend>Datos básicos</legend>
+        <label for="nombre">Nombre</label> <br/>
+        <input type="text" name="nombre" id="nombre" size="50" maxlength="250" />
+        <br/><br/>
+        <label for="descripcion">Descripción</label> <br/>
+        <textarea name="descripcion" id="descripcion" cols="40" rows="5"></textarea>
+        <br/><br/>
+        Foto <input type="file" name="foto" />
+        <br/><br/>
+        <input name="contador" type="checkbox" value="si" /> Añadir contador de visitas
+    </fieldset>
+
+    <fieldset>
+        <legend>Datos económicos</legend>
+        <label for="precio">Precio</label>
+        <input type="text" size="5" id="precio" name="precio" /> &euro;
+        <label for="impuestos">Impuestos</label>
+        <select id="impuestos" name="impuestos">
+            <option value="4">4%</option>
+            <option value="7">7%</option>
+            <option value="16">16%</option>
+            <option value="25">25%</option>
+        </select>
+        <br/><br/>
+        <label>Promoción</label> <br/>
+        <input type="radio" name="promocion" value="ninguno" checked="checked" /> Ninguno <br/>
+        <input type="radio" name="promocion" value="portes" /> Transporte gratuito <br/>
+        <input type="radio" name="promocion" value="descuento" /> Descuento 5%
+    </fieldset>
+
+<br>
+    <input type="submit" name="enviar" value="Enviar" />
+</form>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Practica 7</title>
+    <meta name="author" content="Alvaro Seco de Herrera">
+    <link rel=StyleSheet href="../estilos/index.css" TYPE="text/css">
+</head>
+
+<body>
+<h1 style="text-align: center"><b>Formularios</b></h1><hr>
+<a href="../index.html">Inicio</a> ||
+<a href="ejercicio6.html"><< Anterior </a>|
+<a href="ejercicio8.html">Siguiente >></a>
+<hr>
+
+<style type="text/css">form fieldset {
+    float: left;
+    width: 48%;
+}
+</style>
+    <div style="width: 500px; height: 170px">
+        <img style="float:left"  src="../img/OIP.jpg">
+        <h2 style="padding-top: 130px" >Rellena tu perfil</h2>
+    </div>
+
+        <form method="post" action="mailto:secoalvaro00@gmail.com" enctype="text/plain">
+        <fieldset style="width: 400px; height: 350px">
+            <p>Nombre</p>
+            <input type="text" name="nombre" value="" size="20" maxlength="30" />
+            <p>Apellidos</p>
+            <input type="text" name="apellidos" value="" size="50" maxlength="80" />
+            <p>Contrseña</p>
+            <input type="password" name="contrasena" value="" maxlength="10" />
+            <p>dni</p>
+            <input type="text" name="dni" value="" size="10" maxlength="9" />
+            <br/>
+         </fieldset>
+
+        <fieldset style="width: 400px; height: 350px">
+            <p>Sexo</p>
+            <input type="radio" name="sexo" value="hombre" checked="checked" /> Hombre <br/>
+            <input type="radio" name="sexo" value="mujer" /> Mujer
+
+
+            <br/><br/>
+        <label for="provincia">Provincia</label> <br/>
+        <select id="provincia" name="provincia">
+            <option value="" selected="selected">- selecciona -</option>
+            <option value="01">España</option>
+            <option value="02">Francia</option>
+            <option value="03">Portugal</option>
+            <option value="04">Luxemburgo</option>
+        </select>
+
+        <br/><br/>
+
+        <label for="temasDeInteres">Temas de interés</label> <br/>
+            <p>Puedes seleccionar más de una opción si mantienes pulsada la tecla CTRL</p>
+            <select multiple="multiple" size="5" id="temasDeInteres" name="temasDeInteres">
+                <option>Nuevas tecnologías</option>
+                <option>Deporte</option>
+                <option>Turismo</option>
+                <option>Informática de consumo</option>
+                <option>Decoración</option>
+                <option>Información de venta</option>
+                <option>Información de compra</option>
+                <option>Trabajo</option>
+            </select>
+        </fieldset>
+
+
+    <fieldset style="width:830px; height: 80px; top: 645px; right: 615px" >
+        <br>
+        <input name="suscribir" type="checkbox" value="suscribir" checked="checked"/> Suscribirme al boletín de novedades
+        <br/><br/>
+        <input type="submit" name="enviar" value="Enviar datos>>" />
+        <input type="reset" name="limpiar" value="<<Borrar los datos introducidos" />
+    </fieldset>
+    </form>
+</body>
+
+</html>

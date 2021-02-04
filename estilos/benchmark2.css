@@ -1,0 +1,182 @@
+*{
+    font-family: Arial;
+    list-style: none;
+    background: #333;
+    padding: 0;
+}
+hr{
+    border: 0;
+    height: 12px;
+    box-shadow: inset 0 12px 12px -12px black;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:focus {
+    border-bottom: 1px solid;
+    background: black;
+}
+a:hover {
+    border-bottom: 1px solid;
+    background: black;
+}
+a:active {
+    background: white;
+    color: black;
+}
+h3{
+    color: white;
+}
+h1{
+    font-family: "Bell MT";
+    text-align: center;
+    color: white;
+}
+.flex-container{
+    display: flex;
+    padding: 10px;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.flex-container2{
+    display: flex;
+    padding: 10px;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.flex-container3{
+    display: flex;
+    padding: 10px;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.flex-container div{
+    background-color: gainsboro;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+.skills{
+    width: 500px;
+    margin: 60px auto;
+    color: white;
+}
+li{
+    margin: 20px 0;
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    width: 200px;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px white;
+}
+.bar span{
+    height: 2px;
+    float: left;
+}
+.math{
+    width: 20%;
+    background-color: lawngreen;
+    animation: math 2s;
+}
+.string{
+    width: 25%;
+    background-color: lawngreen;
+    animation: string 2s;
+}
+.loops{
+    width: 40%;
+    background-color: yellow;
+    animation: loops 2s;
+}
+.if-else{
+    width: 15%;
+    background-color: lawngreen;
+    animation: if-else 2s;
+}
+.total{
+    width: 100%;
+    background-color: red;
+    animation: total 2s;
+}
+
+@keyframes math{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 20%;
+    }
+}
+
+@keyframes string{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 25%;
+    }
+}
+
+@keyframes loops{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+
+@keyframes if-else{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 15%;
+    }
+}
+@keyframes total{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+.boton{
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: linear-gradient(#616161 0%, #333, #222);
+    border: 2px solid #000;
+}
